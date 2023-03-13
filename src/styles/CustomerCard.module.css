@@ -1,0 +1,14 @@
+.customer {
+  padding: 25px 28px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: var(--pink);
+  font-weight: 400;
+  font-size: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.customer:last-child {
+  margin-bottom: 0;
+}

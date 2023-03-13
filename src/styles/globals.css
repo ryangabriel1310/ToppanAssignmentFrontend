@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* Set CSS variables */
+:root {
+  --light-pink: #f6ecec;
+  --pink: #f4cfcf;
+  --dark-pink: #d46767;
+}
+
+/* Set all margins and padding to 0 to start with a clean slate */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+/* Set the default font to sans-serif */
+body {
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+/* Remove default list styling */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove underlines from links */
+a {
+  text-decoration: none;
+}
+
+/* Set button to inherit from parent element */
+button {
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+/* Set box-sizing to border-box for easier layout */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
